@@ -1,0 +1,108 @@
+body{
+	margin:0;
+	font-family:Arial;
+}
+*{
+	cursor:default;
+}
+ul,li{
+	list-style:none;
+}
+.zuo input{
+	background:none;
+	border:none;
+	outline:none;
+}
+.zuo{
+	color:white;
+	width:300px;
+	position:absolute;
+	top:0;
+	bottom:0;
+	background: #383836;
+	
+}
+.zuo .title{
+	padding:20px;
+	color:white;
+	font-size: 40px;
+}
+.zuo ul li{
+	/*padding:20px;*/
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size: 20px;
+	border-bottom: 1px solid #ccc;
+
+}
+/*  .zuo ul li input{
+ 	background:red;
+} */
+.zuo li span:first-child{
+	display: inline-block;
+	padding:8px;
+}
+div.you{
+	background: none;
+}
+.you{
+	position: absolute;
+	left:300px;
+	top:0;
+	bottom: 0;
+	right:0;
+	background: #eee;
+	padding:40px 100px;
+}
+.zuo li .red{
+	color:red;
+}
+.you li{
+	padding:10px;
+}
+.blue{
+	background:blue;
+	color:blue;
+}
+.yellow{
+	background:yellow;
+	color:yellow;
+}
+
+.purple{
+	background:purple;
+	color:purple;
+}
+.green{
+	background:green;
+	color:green;
+}
+.brow{
+	background:brown;
+	color:brown;
+}
+
+.pink{
+	background:pink;
+	color:pink;
+}
+.orange{
+	background:orange;
+	color:orange;
+}
+.zong{
+	background:#ccc;
+	color:#ccc;
+ 
+}
+.active{
+	background:red;
+}
+.yuandian{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	margin-right: 10px;
+	border-radius: 50%;
+}
